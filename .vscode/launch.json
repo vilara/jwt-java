@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        
+        
+        
+        {
+            "type": "java",
+            "name": "Launch SecurityConfiguration",
+            "request": "launch",
+            "mainClass": "com.alura.jpacurso.config.security.SecurityConfiguration",
+            "projectName": "jpa-curso"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-JpaCursoApplication<jpa-curso>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.alura.jpacurso.JpaCursoApplication",
+            "projectName": "jpa-curso",
+            "args": "--spring.profiles.active=prod"
+        }
+    ]
+}
