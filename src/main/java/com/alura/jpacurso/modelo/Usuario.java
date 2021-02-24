@@ -56,7 +56,7 @@ public class Usuario implements UserDetails {
 	}
 
 	public Usuario(){
-		
+
 	}
 
 	public Usuario(String nome, String email, String senha) {
@@ -95,6 +95,14 @@ public class Usuario implements UserDetails {
 
 	public void setSenha(String senha) {
 		this.senha = senha;
+	}
+
+	public List<Perfil> getPerfis() {
+		return perfis;
+	}
+
+	public void setPerfis(List<Perfil> perfis) {
+		this.perfis = perfis;
 	}
 
 	@Override
